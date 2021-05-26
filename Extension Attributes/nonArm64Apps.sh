@@ -11,8 +11,8 @@
 #           - Jamf Pro
 #
 ## IMPORTANT ## You shoud test!
-# This Extension Attribute is tested on macOS Catalina. This script is provided without
-# guarantee or warranty. As with any script, it is recommended to test prior to mass
+# This Extension Attribute is tested on macOS Catalina and Big Sur. This script is provided
+# without guarantee or warranty. As with any script, it is recommended to test prior to mass
 # deployment in a production environment.
 #
 # This script involves the creation of files and iteration through those files to create
@@ -28,7 +28,8 @@
 # MacAdmins on Twitter: https://scriptingosx.com/2021/01/weekly-news-summary-for-admins-2021-01-22/
 #
 ## Revision History
-# 2021-05-025: Created Script
+# 2021-05-25: Created Script
+# 2021-05-26: Made Public
 #
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
