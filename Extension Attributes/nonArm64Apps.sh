@@ -2,13 +2,13 @@
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 #
-# This script is for a Jamf Pro Extension Attribute design to check for apps that do not
+# This script is for a Jamf Pro Extension Attribute designed to check for apps that do not
 # have an executable architecture of arm64, indicating that it is not a Universal app.
 # This can be used to identify apps which may presently require Rosetta 2 if deployed
 # on a Mac with Apple Silicon.
 #
 ## REQUIREMENTS:
-#           - Jamf Pro
+#           - Jamf Pro (for Extension Attribute functionality)
 #
 ## IMPORTANT ## You shoud test!
 # This Extension Attribute is tested on macOS Catalina and Big Sur. This script is provided
@@ -20,6 +20,21 @@
 # Please know this may result in performance hits on the Jamf Pro server side, on client
 # side, or possibly even in the network. Again, Test! Test! Test!
 #
+## FAQ
+# Q: Can I uset his script stand-alone
+# A: You sure can! This script should run just fine. Please note that some permissions may
+# be required depending on the environment. Make sure to set #optionRetainResultFile to "yes" to
+# have the results actually be usable on the machine.
+#
+# Q: Can I use use this script in my environment with Jamf's Self Service?
+# A: Sure can! This script can be added as a Policy just like any other stand-alone script.
+# As with any script, make sure to test before deployment!
+#
+# Q: Can I upload the results file instead?
+# A: If you wanted to use this as a stand-alone script, you sure can! I would recommend
+# this Repository for this or as inspiration in changing the script to your liking:
+# https://github.com/kc9wwh/logCollection
+#
 ## Written by: Mark Lynch | Jamf
 #
 # Based very loosely on: https://www.jamf.com/blog/how-to-find-remaining-32-bit-applications-on-macos/
@@ -30,6 +45,7 @@
 ## Revision History
 # 2021-05-25: Created Script
 # 2021-05-26: Made Public
+# 2021-07-05: Added additionl readme information and FAQ within script (and that silly description typo)
 #
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
