@@ -10,7 +10,7 @@
 ## REQUIREMENTS:
 #           - Jamf Pro (for Extension Attribute functionality)
 #
-## IMPORTANT ## You shoud test!
+## IMPORTANT ## You should test!
 # This Extension Attribute is tested on macOS Catalina and Big Sur. This script is provided
 # without guarantee or warranty. As with any script, it is recommended to test prior to mass
 # deployment in a production environment.
